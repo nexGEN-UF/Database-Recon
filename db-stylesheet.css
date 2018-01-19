@@ -1,0 +1,326 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #88c3cd;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-family: "Myriad Pro";
+	font-weight: bold;
+	font-size: 48px;
+	margin-bottom: 2px;
+}
+
+h2{
+
+	color:  #eddcad;
+	text-align: center;
+	font-family: "Myriad Pro";
+	font-size: 40px;
+	font-style: italic;
+	font-weight: normal;
+	margin-top: 2px;
+	/*width: 50%;*/
+}
+
+h3{
+	color:  white;
+	font-family: "Myriad Pro Light";
+	font-size: 30px;
+	font-style: italic;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+label{
+	font-family: "Myriad Pro";
+}
+
+input, label, select{
+	display: block;
+}
+
+
+/****************************login.html*******************************/
+
+.login{
+	text-align: center;
+	width: 50%;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 10%;
+	/*padding-bottom: 25%;*/
+
+}
+
+.form-control-login{
+/*	width: 30%;*/
+	width: 275px;
+    padding: 12px 20px;
+    margin: 2px ;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-family: "Myriad Pro Light";
+	font-size: 16px;
+	font-style: italic;
+}
+
+
+.enterButton{
+	background-color: transparent;
+	color: gray;
+	text-align: center;
+	display: inline-block;
+	/*text-decoration: underline;*/
+	padding: 15px 32px;
+	border: none;
+	font-size: 20px;
+	font-family: "Myriad Pro Light";
+	font-style: italic;
+	padding-left: 30%;
+	transition-duration: .4s;
+
+}
+
+.enterButton:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+
+/***************************index.html**********************************/
+
+.logoutButton{
+	background-color: transparent;
+	color: gray;
+	text-align: center;
+	display: inline-block;
+	padding: 15px 32px;
+	border: none;
+	font-size: 20px;
+	font-family: "Myriad Pro Light";
+	font-style: italic: 30%;
+	transition-duration: .4s;
+	float: right;
+
+}
+
+.logoutButton:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+.form-control-search{
+/*	width: 30%;*/
+	width: 50%;
+    padding: 5px 15px;
+    margin: 2px ;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-family: "Myriad Pro Light";
+	font-size: 16px;
+	font-style: italic;
+
+}
+
+.headshot-search{
+	width: 100%;
+	height: 100%;
+	/*float: left;*/
+	padding-top: 5%;
+	/*padding-bottom: 10%;*/
+	padding-left: 7%;g
+
+}
+
+/*******************************show.html*********************************/
+
+td{
+	padding: 3px;
+	color: white;
+	font-size: 20px;
+	font-family: "Myriad Pro Light";
+
+}
+th {
+	padding: 5px;
+	color: white;
+	font-size: 20px;
+	font-family: "Myriad Pro Light";
+}
+table {
+	width: 100%;
+}
+.infoLabel{
+	font-weight: bold;
+	padding: 3px;
+	color: white;
+	font-size: 20px;
+	font-family: "Myriad Pro Light";
+}
+
+.backButton{
+	background-color: transparent;
+	color: gray;
+	text-align: center;
+	display: inline-block;
+	/*text-decoration: underline;*/
+	padding: 15px 32px;
+	border: none;
+	font-size: 20px;
+	font-family: "Myriad Pro Light";
+	font-style: italic: 30%;
+	transition-duration: .4s;
+	float: left;
+
+}
+
+.backButton:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+
+.showTable{
+	background: gray;
+	/*margin-left: auto;*/
+	margin-right: 0px
+	color: white;
+}
+
+.headshot-show{
+	width: 65%;
+	height: 65%;
+}
+
+.leftHalf{
+	width: 39%;
+	float: left;
+
+}
+
+.rightHalf{
+	width: 61%;
+	float: right;
+}
+
+
+.showInfo{
+	padding-top: 10%;
+}
+
+/***************************images.html*****************************/
+
+
+.column1{
+	width: 25%;
+	float: left;
+
+}
+
+.column2{
+
+	width: 25%;
+	float: left;
+
+}
+
+.column3{
+
+	width: 25%;
+	float: left;
+}
+
+.column4{
+	width: 25%;
+	float: right;
+}
+
+
+
+
+
+
+
+
+/********figure it out!!!****************/
+
+.detailsBox{
+	width: 60%;
+	float: right;
+	background: gray;
+/*	height: 200px;*/
+	display: inline-block;
+/*	border: 1px solid #ccc;*/
+	box-sizing: border-box;
+	font-family: "Myriad Pro Light";
+	font-size: 36px;
+	font-style: italic;
+	margin-top: 10%;
+	margin-right: 5%;
+
+
+}
+
+.rightHalf-show{
+	width: 50%;
+	float: right;
+	padding-top: 10%;
+}
+
+.leftHalf-show{
+	width: 50%;
+	float: left;
+	/*padding-top: 10%;*/
+}
+
+
+
+
+/*Show page design*/
+
+.headshot{
+	width: 70%;
+	height: 70%;
+	float: left;
+	padding-top: 15%;
+	/*padding-bottom: 10%;*/
+	padding-left: 15%;
+}
+
+
+.caption{
+	float: left;
+	padding-top: 60%;
+}
+
+.picAndCap{
+	width: 30%;
+	float: left;;
+	padding-top: 10%;
+/*	padding-left: %;*/
+}
+
+.leftColumn{
+	float:left;
+	width:50%;
+}
+.rightColumn{
+	float:right;
+	width: 50%
+}
+
+
+
+
+
+
+.align{
+	margin: auto;
+    display: block;
+}
